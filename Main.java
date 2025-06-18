@@ -8,6 +8,7 @@ class Onibus {
     public Onibus(String nome) {
         this.nome = nome;
         this.posicao = 0;
+        this.emCorrida = true; 
     }
 
     public void correr() {
